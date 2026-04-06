@@ -44,6 +44,7 @@ size = Vector2(14, 19)
 
 [node name="Player" type="CharacterBody2D" unique_id=2110464029]
 texture_filter = 1
+collision_layer = 2
 script = ExtResource("1_g2els")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=109427101]
@@ -51,7 +52,7 @@ position = Vector2(0, -15)
 sprite_frames = SubResource("SpriteFrames_qlg0r")
 animation = &"idle"
 autoplay = "idle"
-frame_progress = 0.58395153
+frame_progress = 0.23291633
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1310713270]
 position = Vector2(4, -10.5)
