@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bmgxd5tpfdh4w"
-path="res://.godot/imported/player_hit.png-ae6e9b834fe7a1053f046a35f5f7a3b5.ctex"
+uid="uid://k2qaqf5ea61v"
+path="res://.godot/imported/tileset.png-86e5da29ba4ec3072c30b7606e657f88.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player_hit.png"
-dest_files=["res://.godot/imported/player_hit.png-ae6e9b834fe7a1053f046a35f5f7a3b5.ctex"]
+source_file="res://assets/tilesets/tilesets/tileset gramado/tileset.png"
+dest_files=["res://.godot/imported/tileset.png-86e5da29ba4ec3072c30b7606e657f88.ctex"]
 
 [params]
 
