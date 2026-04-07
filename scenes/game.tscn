@@ -1784,9 +1784,9 @@ unique_name_in_owner = true
 script = ExtResource("1_0tnpc")
 
 [node name="ScoreLable" type="Label" parent="GameManager" unique_id=476041193]
-offset_left = 41.0
+offset_left = 37.0
 offset_top = -194.0
-offset_right = 168.0
+offset_right = 164.0
 offset_bottom = -137.0
 theme_override_fonts/font = ExtResource("8_gee14")
 text = "you have collected X coins"
