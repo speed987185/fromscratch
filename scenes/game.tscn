@@ -1851,9 +1851,9 @@ autoplay = &"move"
 [node name="BatSloth" parent="." unique_id=7426780 instance=ExtResource("7_u5sy4")]
 position = Vector2(371, 8)
 
-[node name="Node" type="Node" parent="." unique_id=800075267]
+[node name="Labels" type="Node" parent="." unique_id=800075267]
 
-[node name="Label" type="Label" parent="Node" unique_id=782977149]
+[node name="Label" type="Label" parent="Labels" unique_id=782977149]
 offset_left = 107.0
 offset_top = -52.0
 offset_right = 229.0
@@ -1862,7 +1862,7 @@ theme_override_fonts/font = ExtResource("8_gee14")
 theme_override_font_sizes/font_size = 12
 text = "go ahead"
 
-[node name="Label2" type="Label" parent="Node" unique_id=1209097585]
+[node name="Label2" type="Label" parent="Labels" unique_id=1209097585]
 offset_left = 231.0
 offset_top = -170.0
 offset_right = 312.0
@@ -1871,7 +1871,7 @@ theme_override_fonts/font = ExtResource("8_gee14")
 theme_override_font_sizes/font_size = 12
 text = "dont jump"
 
-[node name="Label3" type="Label" parent="Node" unique_id=834159499]
+[node name="Label3" type="Label" parent="Labels" unique_id=834159499]
 offset_left = 281.0
 offset_top = -56.0
 offset_right = 321.0
@@ -1879,7 +1879,7 @@ offset_bottom = -33.0
 theme_override_fonts/font = ExtResource("8_gee14")
 text = "that hurts"
 
-[node name="Label4" type="Label" parent="Node" unique_id=760366469]
+[node name="Label4" type="Label" parent="Labels" unique_id=760366469]
 offset_left = -46.0
 offset_top = -45.0
 offset_right = 46.0
