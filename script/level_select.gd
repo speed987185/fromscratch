@@ -9,16 +9,16 @@ func _ready() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass
-
-
-func _on_hop_pressed() -> void:
-	get_tree().change_scene_to_file("res://scenes/game.tscn")
 	
 
 
-func _on_levels_pressed() -> void:
-	get_tree().change_scene_to_file("res://assets/font/Menu-font/level_select.tscn")
 
-
-func _on_quit_pressed() -> void:
-	get_tree().quit()
+func _on_lvl_1_pressed() -> void:
+	get_tree().change_scene_to_file("res://scenes/game.tscn")
+	
+	#_on_lvl_2_pressed() -> void:
+	get_tree().change_scene_to_file()
+	
+	#_on_lvl_3_pressed() -> void:
+	get_tree().change_scene_to_file()
+	

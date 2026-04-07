@@ -1776,7 +1776,7 @@ _data = {
 &"move": SubResource("Animation_lbhrr")
 }
 
-[node name="Game" type="Node2D" unique_id=965121151]
+[node name="lvl1" type="Node2D" unique_id=965121151]
 position = Vector2(11, 0)
 
 [node name="GameManager" type="Node" parent="." unique_id=513668778]
