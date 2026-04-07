@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://odh2iewttk6l"]
 
 [ext_resource type="Texture2D" uid="uid://csd5jl4pay1c5" path="res://assets/enenmy/enemy_idel.png" id="1_okr35"]
+[ext_resource type="Script" uid="uid://cc3c17jenuqsy" path="res://script/bat_sloth.gd" id="1_s0h84"]
 [ext_resource type="PackedScene" uid="uid://cebv5swbnit5q" path="res://scenes/deadzone.tscn" id="2_s0h84"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_cew30"]
@@ -57,6 +58,7 @@ animations = [{
 radius = 7.0
 
 [node name="BatSloth" type="Node2D" unique_id=7426780]
+script = ExtResource("1_s0h84")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1891620466]
 sprite_frames = SubResource("SpriteFrames_0gjdp")
@@ -68,3 +70,9 @@ frame_progress = 0.42990798
 [node name="CollisionShape2D" type="CollisionShape2D" parent="deadzone" unique_id=1317422464]
 position = Vector2(0, 3)
 shape = SubResource("CircleShape2D_0k8bl")
+
+[node name="RayCastRight" type="RayCast2D" parent="." unique_id=1067918029]
+target_position = Vector2(14, 0)
+
+[node name="RayCastLeft" type="RayCast2D" parent="." unique_id=1703166908]
+target_position = Vector2(-14, 0)
